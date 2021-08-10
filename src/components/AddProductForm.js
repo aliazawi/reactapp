@@ -12,7 +12,7 @@ const AddProductForm = () => {
 
         setName('')
         setDescription('')
-        setCategoryId(1)
+        setCategoryId(2)
     }
 
     return (

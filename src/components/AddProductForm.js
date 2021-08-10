@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const AddProductForm = () => {
     const [name, setName] = useState('')
     const [description, setDescription] = useState('')
-    const [categoryId, setCategoryId] = useState(1)
+    const [categoryId, setCategoryId] = useState(2)
 
     const handleSubmit = async e => {
         e.preventDefault()
